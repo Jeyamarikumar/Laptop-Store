@@ -145,7 +145,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background-image: url('/gams.jpg');
+    background-image: url('ty.gif');
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -192,7 +192,7 @@ nav ul li a:hover {
 .products {
     padding: 120px 0;
     background-color: black;
-    background-image: url('/gams.jpg');
+    background-image: url('ser.gif');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -331,7 +331,7 @@ nav ul li a:hover {
 /* About Section */
 .about {
     padding: 233px 0;
-    background-image: url('/gams.jpg');
+    background-image: url('gams.gif');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -359,7 +359,7 @@ nav ul li a:hover {
 /* Contact Section */
 .contact {
     padding: 150px 0;
-  background-image: url('/p.jpg');
+  background-image: url('p.jpg');
   background-repeat: no-repeat;
   background-size: cover;
      font-family: "poppins-font";
