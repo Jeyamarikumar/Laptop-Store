@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #210220;
+    
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border: solid rgba(245, 240, 240, 0.073);
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0);
+   gap: 5px;
+   margin-top: 1%;
+   backdrop-filter: blur(4px);
+   box-shadow: 0px 0px 7px white inset;
+   
+    
+
+}
+
+#heading{
+     font-family: "poppins_font";
+    src: url('/poppins-font/PoppinsRegular-B2Bw.otf');
+    color: azure;
+}
+
+#ig{
+    width: 4%;
+}
+
+.navi{
+    display: flex;
+    gap: 60px;
+    padding-right: 10px;
+    margin-left: 40%;
+
+
+}
+
+.navi a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 200;
+    font-family: "poppins_font";
+    src: url('/poppins-font/PoppinsSemibold-8l8n.otf');
+    color: azure;
+ 
+}
+
+@font-face {
+    font-family: "poppins_font";
+    src: url('/poppins-font/PoppinsRegular-B2Bw.otf');
+}
+@font-face {
+    font-family: "poppins_font";
+    src: url('/poppins-font/PoppinsSemibold-8l8n.otf');
+}
+
+.home img{
+    width: 100%;
+   
+}
+
+.first{
+    display: flex;
+    gap: 100px;
+}
+
+#one{
+    width: 15%;
+    height: 30%;
+}
+#two{
+    width: 12%;
+    height: 30%;
+}
+#three{
+    width: 12%;
+    height: 30%;
+}
+#four{
+    width: 12%;
+    height: 30%;
+}
+#five{
+    width: 12%;
+    height: 30%;
+}

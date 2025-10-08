@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC World - Laptop Store</title>
+    <link rel="stylesheet" href="laproject.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+   
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="/lp1.png" id="ig">
+            <div class="logo">
+                <h1>PC World</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#products">Laptops</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                   
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                
+               
+               
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <h2>Premium Laptops for Every Need</h2>
+            <p>Find the perfect laptop for work, gaming, or creativity</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Laptop Collection</h2>
+            <div class="filter-options">
+                <select id="brand-filter">
+                    <option value="all">All Brands</option>
+                    <option value="apple">Apple</option>
+                    <option value="dell">Dell</option>
+                    <option value="hp">HP</option>
+                    <option value="lenovo">Lenovo</option>
+                    <option value="asus">Asus</option>
+                </select>
+                <select id="price-filter">
+                    <option value="all">All Prices</option>
+                    <option value="0-70000">Under ₹70,000</option>
+                    <option value="70000-100000">₹70,000 - ₹1,00,000</option>
+                    <option value="100000-300000">₹1,00,000 - ₹3,00,000</option>
+                   
+                </select>
+            </div>
+            <div class="product-grid" id="product-grid">
+                <!-- Products will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <img src="/lp1.png" id="anim"  style="width:35%;">
+            <h2>About PC World</h2>
+            <p>PC World is your premier destination for high-quality laptops and tech accessories. With over 10 years in the industry, we provide expert advice and the latest technology to meet all your computing needs.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required id="text">
+                <input type="email" placeholder="Your Email" required id="email">
+                <textarea placeholder="Your Message" required id="message"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-content">
+            <span class="close-cart"></span>
+            <div class="cart-items" id="cart-items">
+                <!-- Cart items will be loaded here -->
+            </div>
+           
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 PC World. All rights reserved.</p>
+        
+        </div>
+    </footer>
+
+    <script src="lapjs.js"></script>
+    <script src="lpjs.js"></script>
+</body>
+</html>
