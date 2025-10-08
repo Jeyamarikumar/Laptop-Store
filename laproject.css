@@ -145,7 +145,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background-image: url('/typing.jpg');
+    background-image: url(' typing.jpg');
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -331,7 +331,7 @@ nav ul li a:hover {
 /* About Section */
 .about {
     padding: 233px 0;
-    background-image: url('gams.gif');
+    background-image: url('gams.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
