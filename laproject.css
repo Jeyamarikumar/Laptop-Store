@@ -145,7 +145,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background-color: #333;
+   background-image: url('ig.png');
     background-size: cover;
     background-position: center;
     height: 900px;
